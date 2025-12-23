@@ -42,7 +42,7 @@ export default function PrivacyPage() {
               Introduction
             </h2>
             <p className="text-foreground/70 mb-4">
-              Clever Technologies & Writing ("CTW", "we", "us", or "our") is committed to protecting your privacy. 
+              Clever Technologies & Writing (&ldquo;CTW&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) is committed to protecting your privacy. 
               This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you 
               visit our website or use our services.
             </p>
@@ -263,9 +263,9 @@ export default function PrivacyPage() {
             </div>
           </div>
 
-          {/* Children's Privacy */}
+          {/* Children&apos;s Privacy */}
           <div className="mb-12">
-            <h2 className="text-3xl font-bold mb-6">Children's Privacy</h2>
+            <h2 className="text-3xl font-bold mb-6">Children&apos;s Privacy</h2>
             
             <div className="bg-dark-100/50 border border-dark-300 rounded-xl p-6">
               <p className="text-foreground/70">
@@ -286,7 +286,7 @@ export default function PrivacyPage() {
                 requirements. We will notify you of significant changes by:
               </p>
               <ul className="list-disc list-inside space-y-2 text-foreground/70 mt-3">
-                <li>Updating the "Last Updated" date at the top of this policy</li>
+                <li>Updating the &ldquo;Last Updated&rdquo; date at the top of this policy</li>
                 <li>Sending an email notification to active clients</li>
                 <li>Displaying a prominent notice on our website</li>
               </ul>
