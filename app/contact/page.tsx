@@ -50,7 +50,7 @@ export default function ContactPage() {
             </span>
           </h1>
           <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
-            Ready to start your project? Get in touch and let's discuss how we can help your business grow.
+            Ready to start your project? Get in touch and let&apos;s discuss how we can help your business grow.
           </p>
         </div>
       </section>
@@ -62,7 +62,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
               <p className="text-foreground/70 mb-8">
-                Have a project in mind? Fill out the form and we'll get back to you within 24 hours.
+                Have a project in mind? Fill out the form and we&apos;ll get back to you within 24 hours.
               </p>
             </div>
 
@@ -141,7 +141,7 @@ export default function ContactPage() {
                   <div className="mb-6 bg-primary/20 border border-primary/50 rounded-xl p-4 flex items-center">
                     <CheckCircle2 className="w-5 h-5 text-primary mr-3 flex-shrink-0" />
                     <p className="text-sm">
-                      <strong>Message sent successfully!</strong> We'll get back to you within 24 hours.
+                      <strong>Message sent successfully!</strong> We&apos;ll get back to you within 24 hours.
                     </p>
                   </div>
                 )}
@@ -282,7 +282,7 @@ export default function ContactPage() {
                   </button>
 
                   <p className="text-xs text-foreground/60">
-                    By submitting this form, you agree to our privacy policy. We'll only use your information to respond to your inquiry.
+                    By submitting this form, you agree to our privacy policy. We&apos;ll only use your information to respond to your inquiry.
                   </p>
                 </form>
               </div>
@@ -296,7 +296,7 @@ export default function ContactPage() {
         <div className="bg-gradient-to-br from-secondary/10 to-accent/10 border border-secondary/30 rounded-3xl p-8 md:p-12 text-center">
           <h2 className="text-2xl font-bold mb-4">Prefer a Different Way?</h2>
           <p className="text-foreground/70 mb-6">
-            We're flexible. Reach out however works best for you.
+            We&apos;re flexible. Reach out however works best for you.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a

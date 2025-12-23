@@ -10,7 +10,7 @@ export default function ValueProposition() {
     {
       icon: Coins,
       title: 'Transparent Pricing',
-      description: 'No hidden costs or surprise fees. Clear, itemized quotes for every project. Know exactly what you\'re paying for.',
+      description: 'No hidden costs or surprise fees. Clear, itemized quotes for every project. Know exactly what you&apos;re paying for.',
     },
     {
       icon: TrendingUp,

@@ -23,7 +23,7 @@ export default function TechStackPage() {
             The same enterprise-grade tools used by Airbnb, Netflix, and Uber - explained simply.
           </p>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
-            You don't need to understand the technical details. We handle that. This page shows you what makes your project enterprise-grade.
+            You don&apos;t need to understand the technical details. We handle that. This page shows you what makes your project enterprise-grade.
           </p>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function TechStackPage() {
       <section className="mx-auto max-w-7xl px-6 lg:px-8 py-16">
         <h2 className="text-4xl font-bold text-center mb-4">Project Architectures</h2>
         <p className="text-center text-foreground/70 mb-12 max-w-2xl mx-auto">
-          Different projects need different setups. Here's how we structure yours based on your needs.
+          Different projects need different setups. Here&apos;s how we structure yours based on your needs.
         </p>
 
         <div className="space-y-16">

@@ -88,10 +88,10 @@ export default function AboutPage() {
             <div className="group relative bg-gradient-to-br from-secondary/10 to-secondary/5 border border-secondary/30 rounded-2xl p-8 hover:border-secondary/50 transition-all duration-300">
               <div className="absolute top-4 right-4 w-12 h-12 bg-secondary/20 rounded-full blur-xl group-hover:blur-2xl transition-all" />
               <Heart className="w-12 h-12 text-secondary mb-4" />
-              <h3 className="text-2xl font-bold mb-3">Why "Clever Technologies & Writing"</h3>
+              <h3 className="text-2xl font-bold mb-3">Why &ldquo;Clever Technologies & Writing&rdquo;</h3>
               <p className="text-foreground/70">
                 The name reflects our dual expertise - cutting-edge technology development paired with exceptional 
-                technical writing. We don't just build applications; we document them properly.
+                technical writing. We don&apos;t just build applications; we document them properly.
               </p>
             </div>
           </div>
