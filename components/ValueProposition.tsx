@@ -57,8 +57,8 @@ export default function ValueProposition() {
         <div className="mt-16 text-center">
           <div className="inline-flex items-center justify-center bg-gradient-to-r from-primary/20 to-secondary/20 border border-primary/30 rounded-lg px-8 py-6 max-w-3xl mx-auto">
             <p className="text-xl font-semibold text-foreground">
-              "You deserve better than WordPress. You deserve enterprise-grade. 
-              You deserve <span className="text-primary">Clever Technologies & Writing</span>."
+              &ldquo;You deserve better than WordPress. You deserve enterprise-grade. 
+              You deserve <span className="text-primary">Clever Technologies & Writing</span>.&rdquo;
             </p>
           </div>
         </div>

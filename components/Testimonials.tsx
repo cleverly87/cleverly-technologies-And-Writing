@@ -55,7 +55,7 @@ export default function Testimonials() {
               </div>
 
               <p className="text-foreground/80 mb-6 leading-relaxed">
-                "{testimonial.content}"
+                &ldquo;{testimonial.content}&rdquo;
               </p>
 
               <div className="pt-6 border-t border-dark-300">
