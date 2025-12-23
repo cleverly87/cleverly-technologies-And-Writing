@@ -16,10 +16,13 @@ export default function Footer() {
       { name: 'Tech Stack', href: '/tech-stack' },
     ],
     resources: [
-      { name: 'Blog', href: '/blog' },
       { name: 'Case Studies', href: '/portfolio#case-studies' },
       { name: 'FAQ', href: '/#faq' },
       { name: 'Contact', href: '/contact' },
+    ],
+    legal: [
+      { name: 'Privacy Policy', href: '/privacy' },
+      { name: 'Terms of Service', href: '/terms' },
     ],
   }
 
@@ -81,17 +84,31 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div>
-              <h3 className="text-sm font-semibold leading-6 text-foreground">Resources</h3>
-              <ul role="list" className="mt-6 space-y-4">
-                {navigation.resources.map((item) => (
-                  <li key={item.name}>
-                    <Link href={item.href} className="text-sm leading-6 text-foreground/70 hover:text-primary">
-                      {item.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+            <div className="md:grid md:grid-cols-2 md:gap-8">
+              <div>
+                <h3 className="text-sm font-semibold leading-6 text-foreground">Resources</h3>
+                <ul role="list" className="mt-6 space-y-4">
+                  {navigation.resources.map((item) => (
+                    <li key={item.name}>
+                      <Link href={item.href} className="text-sm leading-6 text-foreground/70 hover:text-primary">
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="mt-10 md:mt-0">
+                <h3 className="text-sm font-semibold leading-6 text-foreground">Legal</h3>
+                <ul role="list" className="mt-6 space-y-4">
+                  {navigation.legal.map((item) => (
+                    <li key={item.name}>
+                      <Link href={item.href} className="text-sm leading-6 text-foreground/70 hover:text-primary">
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>

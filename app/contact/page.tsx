@@ -81,18 +81,6 @@ export default function ContactPage() {
               </div>
 
               <div className="flex items-start">
-                <div className="w-12 h-12 rounded-xl bg-secondary/20 flex items-center justify-center mr-4 flex-shrink-0">
-                  <Phone className="w-6 h-6 text-secondary" />
-                </div>
-                <div>
-                  <div className="font-semibold mb-1">Phone</div>
-                  <a href="tel:+447000000000" className="text-foreground/70 hover:text-secondary transition-colors">
-                    +44 (0) 7000 000 000
-                  </a>
-                </div>
-              </div>
-
-              <div className="flex items-start">
                 <div className="w-12 h-12 rounded-xl bg-accent/20 flex items-center justify-center mr-4 flex-shrink-0">
                   <MapPin className="w-6 h-6 text-accent" />
                 </div>
@@ -125,7 +113,7 @@ export default function ContactPage() {
                   <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
                     <span className="text-primary text-xs font-bold">1</span>
                   </div>
-                  <p className="text-foreground/70">Initial consultation call to discuss your needs</p>
+                  <p className="text-foreground/70">Email response to gather details and arrange a consultation call</p>
                 </div>
                 <div className="flex items-start">
                   <div className="w-6 h-6 rounded-full bg-secondary/20 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
@@ -173,7 +161,7 @@ export default function ContactPage() {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 bg-dark-200 border border-dark-300 rounded-xl focus:outline-none focus:border-primary transition-colors"
-                        placeholder="Andrew Cleverly"
+                        placeholder="First Name Last Name"
                       />
                     </div>
 
