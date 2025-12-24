@@ -164,7 +164,7 @@ export default function AboutPage() {
         <div className="mt-12 relative">
           <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 rounded-3xl blur-xl" />
           <div className="relative bg-dark-100 border border-dark-300 rounded-3xl p-12 text-center">
-            <div className="text-6xl text-primary/20 mb-4">"</div>
+            <div className="text-6xl text-primary/20 mb-4">{"\""}</div>
             <p className="text-2xl font-medium text-foreground/90 italic max-w-4xl mx-auto leading-relaxed">
               {"I started CTW because I was tired of seeing small businesses being sold WordPress sites when they deserved enterprise-grade solutions. Every business, regardless of size, should have access to the same quality technology that powers the world's largest companies."}
             </p>
