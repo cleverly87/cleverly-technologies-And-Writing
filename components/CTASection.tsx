@@ -10,8 +10,7 @@ export default function CTASection() {
             Ready to Build Something <span className="text-primary">Enterprise-Grade</span>?
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-foreground/70">
-            Let&apos;s discuss your project. Get a free consultation and transparent quote with no obligation. 
-            See why businesses are ditching WordPress for modern, scalable solutions.
+            {"Let's discuss your project. Get a free consultation and transparent quote with no obligation. See why businesses are ditching WordPress for modern, scalable solutions."}
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Link

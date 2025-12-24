@@ -22,7 +22,7 @@ export default function Testimonials() {
     {
       name: 'Emily Richardson',
       role: 'Director, GreenLeaf Consulting',
-      content: 'We were stuck with a slow WordPress site that cost us customers. Andrew rebuilt our site with Next.js—it\'s 10x faster, looks stunning, and we can finally scale. The Microsoft 365 integration saves us hours every week.',
+      content: "We were stuck with a slow WordPress site that cost us customers. Andrew rebuilt our site with Next.js—it's 10x faster, looks stunning, and we can finally scale. The Microsoft 365 integration saves us hours every week.",
       rating: 5,
       project: 'WordPress Migration',
     },
@@ -55,7 +55,7 @@ export default function Testimonials() {
               </div>
 
               <p className="text-foreground/80 mb-6 leading-relaxed">
-                &ldquo;{testimonial.content}&rdquo;
+                {"\"{testimonial.content}\""}
               </p>
 
               <div className="pt-6 border-t border-dark-300">

@@ -88,10 +88,9 @@ export default function AboutPage() {
             <div className="group relative bg-gradient-to-br from-secondary/10 to-secondary/5 border border-secondary/30 rounded-2xl p-8 hover:border-secondary/50 transition-all duration-300">
               <div className="absolute top-4 right-4 w-12 h-12 bg-secondary/20 rounded-full blur-xl group-hover:blur-2xl transition-all" />
               <Heart className="w-12 h-12 text-secondary mb-4" />
-              <h3 className="text-2xl font-bold mb-3">Why &ldquo;Clever Technologies & Writing&rdquo;</h3>
+              <h3 className="text-2xl font-bold mb-3">{"Why \"Clever Technologies & Writing\""}</h3>
               <p className="text-foreground/70">
-                The name reflects our dual expertise - cutting-edge technology development paired with exceptional 
-                technical writing. We don&apos;t just build applications; we document them properly.
+                {"The name reflects our dual expertise - cutting-edge technology development paired with exceptional technical writing. We don't just build applications; we document them properly."}
               </p>
             </div>
           </div>
@@ -167,9 +166,7 @@ export default function AboutPage() {
           <div className="relative bg-dark-100 border border-dark-300 rounded-3xl p-12 text-center">
             <div className="text-6xl text-primary/20 mb-4">"</div>
             <p className="text-2xl font-medium text-foreground/90 italic max-w-4xl mx-auto leading-relaxed">
-              I started CTW because I was tired of seeing small businesses being sold WordPress sites when they 
-              deserved enterprise-grade solutions. Every business, regardless of size, should have access to the 
-              same quality technology that powers the world's largest companies.
+              {"I started CTW because I was tired of seeing small businesses being sold WordPress sites when they deserved enterprise-grade solutions. Every business, regardless of size, should have access to the same quality technology that powers the world's largest companies."}
             </p>
             <p className="mt-6 text-primary font-semibold">— Andrew Cleverly, Founder</p>
           </div>

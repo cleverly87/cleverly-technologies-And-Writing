@@ -10,7 +10,7 @@ export default function ValueProposition() {
     {
       icon: Coins,
       title: 'Transparent Pricing',
-      description: 'No hidden costs or surprise fees. Clear, itemized quotes for every project. Know exactly what you&apos;re paying for.',
+      description: "No hidden costs or surprise fees. Clear, itemized quotes for every project. Know exactly what you're paying for.",
     },
     {
       icon: TrendingUp,
@@ -57,8 +57,7 @@ export default function ValueProposition() {
         <div className="mt-16 text-center">
           <div className="inline-flex items-center justify-center bg-gradient-to-r from-primary/20 to-secondary/20 border border-primary/30 rounded-lg px-8 py-6 max-w-3xl mx-auto">
             <p className="text-xl font-semibold text-foreground">
-              &ldquo;You deserve better than WordPress. You deserve enterprise-grade. 
-              You deserve <span className="text-primary">Clever Technologies & Writing</span>.&rdquo;
+              {"\"You deserve better than WordPress. You deserve enterprise-grade. You deserve "}<span className="text-primary">Clever Technologies & Writing</span>{".\""}
             </p>
           </div>
         </div>

@@ -103,7 +103,7 @@ export default function Hero() {
                     <div className="text-foreground/70 pl-4">
                       <span className="text-secondary">{'}'}</span>
                       <span className="text-accent"> from </span>
-                      <span className="text-green-400">&apos;enterprise-stack&apos;</span>
+                      <span className="text-green-400">{'"enterprise-stack"'}</span>
                     </div>
                     
                     <div className="pt-4">

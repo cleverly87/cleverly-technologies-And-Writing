@@ -56,9 +56,7 @@ export default function TermsPage() {
             <h2 className="text-3xl font-bold mb-6">1. Agreement to Terms</h2>
             <div className="bg-dark-100/50 border border-dark-300 rounded-xl p-6">
               <p className="text-foreground/70 mb-4">
-                These Terms of Service (&ldquo;Terms&rdquo;) govern your use of services provided by Clever Technologies & Writing 
-                (&ldquo;CTW&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;). By engaging our services, accessing our website, or signing a project 
-                agreement, you (&ldquo;Client&rdquo;, &ldquo;you&rdquo;) agree to be bound by these Terms.
+                {"These Terms of Service (\"Terms\") govern your use of services provided by Clever Technologies & Writing (\"CTW\", \"we\", \"us\", or \"our\"). By engaging our services, accessing our website, or signing a project agreement, you (\"Client\", \"you\") agree to be bound by these Terms."}
               </p>
               <p className="text-foreground/70">
                 <strong>Effective Date:</strong> These Terms become effective upon your acceptance (verbal, written, 
@@ -289,7 +287,7 @@ export default function TermsPage() {
                   <strong>EXCEPT AS EXPRESSLY STATED ABOVE:</strong>
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-foreground/70 ml-4 text-sm">
-                  <li>Services are provided "AS IS" without warranties of any kind</li>
+                  <li>{"Services are provided \"AS IS\" without warranties of any kind"}</li>
                   <li>We do not guarantee uninterrupted, error-free, or secure operation</li>
                   <li>We do not warrant specific business results, rankings, or traffic</li>
                   <li>Third-party services (hosting, APIs) are subject to provider terms</li>
@@ -321,8 +319,7 @@ export default function TermsPage() {
                 the total fees paid by you for the specific project giving rise to the claim</li>
                 <li><strong>Indirect Damages:</strong> We are not liable for indirect, incidental, consequential, special, or punitive 
                 damages including lost profits, revenue, data, or business opportunities</li>
-                <li><strong>Third-Party Actions:</strong> Not liable for damages caused by third-party services, hosting providers, 
-                or client&apos;s misuse of deliverables</li>
+                <li><strong>Third-Party Actions:</strong> {"Not liable for damages caused by third-party services, hosting providers, or client's misuse of deliverables"}</li>
                 <li><strong>Time Limit:</strong> Claims must be brought within 12 months of the event giving rise to the claim</li>
               </ul>
               <p className="text-foreground/70 mt-4 text-sm">
@@ -339,7 +336,7 @@ export default function TermsPage() {
               <div className="bg-dark-100/50 border border-dark-300 rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-3">10.1 Termination by Client</h3>
                 <ul className="list-disc list-inside space-y-2 text-foreground/70 ml-4">
-                  <li>You may terminate with 14 days&apos; written notice</li>
+                  <li>{"You may terminate with 14 days' written notice"}</li>
                   <li>You pay for all work completed plus 25% of remaining balance (kill fee)</li>
                   <li>Deposits are non-refundable</li>
                   <li>You receive deliverables completed to date upon payment</li>
@@ -403,8 +400,7 @@ export default function TermsPage() {
               <div>
                 <h3 className="text-lg font-bold mb-2">11.4 Amendments</h3>
                 <p className="text-foreground/70">
-                  We may update these Terms with 30 days&apos; notice. Continued use after changes constitutes acceptance. 
-                  Project-specific amendments require written agreement by both parties.
+                  {"We may update these Terms with 30 days' notice. Continued use after changes constitutes acceptance. Project-specific amendments require written agreement by both parties."}
                 </p>
               </div>
 

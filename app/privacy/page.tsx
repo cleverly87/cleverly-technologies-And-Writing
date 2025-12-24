@@ -23,7 +23,7 @@ export default function PrivacyPage() {
             </span>
           </h1>
           <p className="text-xl text-foreground/70 text-center max-w-2xl mx-auto">
-            Your privacy matters. Here's how we collect, use, and protect your personal information.
+            {"Your privacy matters. Here's how we collect, use, and protect your personal information."}
           </p>
           <p className="text-sm text-foreground/50 text-center mt-4">
             Last updated: {new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
@@ -42,9 +42,7 @@ export default function PrivacyPage() {
               Introduction
             </h2>
             <p className="text-foreground/70 mb-4">
-              Clever Technologies & Writing (&ldquo;CTW&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) is committed to protecting your privacy. 
-              This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you 
-              visit our website or use our services.
+              {"Clever Technologies & Writing (\"CTW\", \"we\", \"us\", or \"our\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services."}
             </p>
             <p className="text-foreground/70">
               <strong>Data Controller:</strong> Clever Technologies & Writing<br />
@@ -111,9 +109,9 @@ export default function PrivacyPage() {
                 We process your personal data under the following lawful bases:
               </p>
               <ul className="list-disc list-inside space-y-2 text-foreground/70">
-                <li><strong>Contract Performance:</strong> To provide services you've requested</li>
+                <li><strong>Contract Performance:</strong> {"To provide services you've requested"}</li>
                 <li><strong>Legitimate Interests:</strong> To improve our services and communicate about our business</li>
-                <li><strong>Consent:</strong> Where you've given explicit permission (e.g., marketing emails)</li>
+                <li><strong>Consent:</strong> {"Where you've given explicit permission (e.g., marketing emails)"}</li>
                 <li><strong>Legal Obligation:</strong> To comply with tax, accounting, and legal requirements</li>
               </ul>
             </div>
@@ -286,7 +284,7 @@ export default function PrivacyPage() {
                 requirements. We will notify you of significant changes by:
               </p>
               <ul className="list-disc list-inside space-y-2 text-foreground/70 mt-3">
-                <li>Updating the &ldquo;Last Updated&rdquo; date at the top of this policy</li>
+                <li>{"Updating the \"Last Updated\" date at the top of this policy"}</li>
                 <li>Sending an email notification to active clients</li>
                 <li>Displaying a prominent notice on our website</li>
               </ul>
@@ -307,8 +305,7 @@ export default function PrivacyPage() {
               <p><strong>Response Time:</strong> Within 30 days</p>
             </div>
             <p className="text-sm text-foreground/60 mt-6">
-              You also have the right to lodge a complaint with the UK Information Commissioner's Office (ICO) 
-              at <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">ico.org.uk</a>
+              {"You also have the right to lodge a complaint with the UK Information Commissioner's Office (ICO) at "}<a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">ico.org.uk</a>
             </p>
           </div>
 
